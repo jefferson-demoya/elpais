@@ -1,18 +1,33 @@
-<?php
-session_start();
+<?php session_start();
+error_reporting(0);
 switch ($_SESSION['cargo']) {
 		//Redirec segun cargo.
 
 		case '2':
-			header("location:../r/u/index.php");
+		
+?>
+<script type="text/javascript">
+window.location.href = '../r/u/index.php';
+</script>
+<?php
 		break;
 
 		case '1':
-			header("location:../r/a/index.php");
+		
+?>
+<script type="text/javascript">
+window.location.href = '../r/a/index.php';
+</script>
+<?php
 		break;
 
 		default:
-			header("location:../index.php?mensaje=Usuario y/o Clave incorrecta");
+			
+?>
+<script type="text/javascript">
+window.location.href = '../index.php';
+</script>
+<?php
 		break;
 	}
 ?>
