@@ -1,0 +1,41 @@
+ /*Colores base*/
+ .color-text{
+    color: #008EC9;
+   }
+    .color-text-link{
+    color: #008EC9;
+   }
+    .color-text-link:hover{
+    color: #3a3632;
+   }
+  
+   /*Inputs*/
+  .input-editado{
+    width: 100%;
+    border-radius: 0px!important;
+    padding: 0.200rem;
+    border: none;
+    border-bottom: 1.9px solid #008EC9;
+    transition:.5s;
+  }
+  .input-editado:focus/*, .input-editado:hover*/ {  
+  transition: 0.5s; 
+    border-color: rgb(0, 142, 201);
+    border-radius: 5px!important;
+    box-shadow: 1px 1px 1px 1px rgba(199, 70, 52, 0.075) inset, 0px 0px 1px 1px rgb(0, 142, 201);
+    outline: 0 none;
+  }
+  
+  /*Botones*/
+  .btn-outline-danger{
+    color: #008EC9;
+      border-color: #008EC9;
+      transition: 0.5s!important;
+  }
+   .btn-outline-danger:hover, .btn-outline-danger:focus, .btn-outline-danger:active, .btn-outline-danger.active, .open>.dropdown-toggle .btn-outline-danger {
+    transition: 0.5;
+      color: #fff!important;
+      background-color: #008EC9;/*Colores sobrelineado*/
+      border-color: #008EC9;
+  }
+  

@@ -1,0 +1,14 @@
+	.carta-top{
+		border-style: dotted; 
+		background-color: #ffffff;  
+		border-radius:10px 10px 10px 10px;
+		padding-right: 5%!important; 
+		padding-left: 5%!important;
+	}
+		.carta-top-1{
+		border-style: dotted; 
+		background-color: #ffffff;  
+		border-radius:10px 10px 10px 10px;
+		padding-right: 50%!important; 
+		padding-left: 5%!important;
+	}
